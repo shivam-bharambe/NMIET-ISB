@@ -1,0 +1,156 @@
+.card {
+    border: none;
+    background-color: #5586f0;
+    margin-bottom: 2%;
+
+}
+
+.card .color-line-Sarah {
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom left, rgb(239, 239, 239), rgb(152, 222, 239), rgb(17, 63, 246));
+}
+
+.card img {
+    clip-path: circle();
+    margin-top: 10%;
+    margin-bottom: -10%;
+}
+
+.card-overlay {
+  border-radius: 0px 0px 15px 15px;
+  /* background-color: white; */
+  /* background-color: rgba(13, 110, 235, 0.76); */
+  background-image: linear-gradient(to bottom left, rgb(239, 239, 239), rgb(70, 216, 253), rgb(51, 88, 238));
+
+  padding-top: 10%;
+  padding-bottom: 7%;
+}
+.card-overlay p {
+    margin-top: -4%;
+    color: rgba(26, 22, 22, 0.478);
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.card-overlay h3 {
+    font-weight: 610;
+    cursor: pointer;
+}
+
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.Effect {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 440%;
+  
+    width: 100%;
+    color: #142850;
+    background-color: #f1f4fb;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    /* transform: translateY(-50%); */
+    letter-spacing: 0.2em;
+  }
+
+  .parallax {
+    height: 100vh;
+    width: 100%;
+    background-color: #f1f4fb;
+  }
+
+  
+  .card{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:35px;
+  }
+
+  col{
+    background-color: #3b578e;
+  }
+
+ 
+
+col{
+  background-color:#3b578e;
+}
+
+h1{
+  font-weight: bold;
+}
+
+ 
+
+  .teamTitle h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 75px;
+    color:#3b578e;
+    margin-top: 75px;
+
+  }
+
+
+
+  a, li {
+    color: white;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+     
+  }
+  
+  
+  .link{
+    margin-right: 280px;
+  }
+  
+  
+  a:hover{
+    color:  #e2e5ec ;
+    ;
+  }
+  
+  a {
+    display: inline-block;
+    position: relative;
+    color: 
+    #e2e5ec ;
+
+  
+  }
+  
+  a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e2e5ec;
+
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+   a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+
+
+
+
+  
